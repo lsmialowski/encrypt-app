@@ -1,0 +1,20 @@
+{
+  "jwt": {
+    "secret": "$2y$12$JBjOQxHx5fwPnKng/Lwy0OSeJVmEZCmvjWIPBWpoYD7YVilWsiXNG"
+  },
+  "key_pair": {
+    "secret": "fbz0~diWma.x`T`5ddLy|ciHbaMCkq])d&`ec/hZz;=_m,:GdTA.Y?,0r<|U2*P"
+  },
+  "database": {
+    "type": "mysql",
+    "host": "mysql_db",
+    "port": 3306,
+    "username": "root",
+    "password": "password",
+    "database": "nodejs",
+    "charset": "UTF8_UNICODE_CI"
+  },
+  "winston": {
+    "level": "debug"
+  }
+}

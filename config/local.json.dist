@@ -1,0 +1,17 @@
+{
+  "jwt": {
+    "secret": "B4226EDCC83BBFEEAE3317DE39C9D"
+  },
+  "database": {
+    "type": "mysql",
+    "host": "mysql_db",
+    "port": 3306,
+    "username": "konrad",
+    "password": "niznik",
+    "database": "nodejs",
+    "charset": "UTF8_UNICODE_CI"
+  },
+  "winston": {
+    "level": "debug"
+  }
+}

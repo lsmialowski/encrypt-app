@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "a6e6ae87-742b-4b68-813e-01965ca0770b",
+		"name": "Node.Js App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"fake@gmail.com\",\n\t\"password\": \"niznik\",\n\t\"password_repeat\": \"niznik\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sign-in",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"fake@gmail.com\",\n\t\"password\": \"niznik\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/sign-in",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"sign-in"
+					]
+				},
+				"description": "\t"
+			},
+			"response": []
+		},
+		{
+			"name": "Generate-key-pair",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5pem5pay5rb25yYWRAZ21haWwuY29tIiwiaWF0IjoxNTU2NTc0MTI3LCJleHAiOjE1NTY1NzQ0MjcsImF1ZCI6Imh0dHA6Ly9uaXpuaWtzb2Z0d2FyZS5jb20iLCJpc3MiOiJLb25yYWQgTmnFvG5payBTb2Z0d2FyZSIsInN1YiI6Im5pem5pay5rb25yYWRAZ21haWwuY29tIn0.G_TttHLVYNdwzL7KlR-NEV9zG9D4NuKUPfm_ZGnnWCI"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/generate-key-pair",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"generate-key-pair"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Encrypt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5pem5pay5rb25yYWRAZ21haWwuY29tIiwiaWF0IjoxNTU2NTc0MTI3LCJleHAiOjE1NTY1NzQ0MjcsImF1ZCI6Imh0dHA6Ly9uaXpuaWtzb2Z0d2FyZS5jb20iLCJpc3MiOiJLb25yYWQgTmnFvG5payBTb2Z0d2FyZSIsInN1YiI6Im5pem5pay5rb25yYWRAZ21haWwuY29tIn0.G_TttHLVYNdwzL7KlR-NEV9zG9D4NuKUPfm_ZGnnWCI"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/encrypt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"encrypt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
